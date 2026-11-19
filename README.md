@@ -56,6 +56,8 @@ git clone https://github.com/jovialguard025/untangled.git
 cd untangled
 
 # Serve it (pick one)
+node serve.js
+# or
 python -m http.server 8000 --directory dist
 # or
 npx serve dist
