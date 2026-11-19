@@ -18,7 +18,9 @@
 
 <p align="center">
   <a href="https://jovialguard025.github.io/untangled/">🌐 Live Demo</a> ·
-  <a href="#-the-six-stages">📖 How It Works</a> ·
+  <a href="docs/EXPLAINED_SIMPLY.md">💡 Explained Simply</a> ·
+  <a href="docs/RESEARCH.md">🔬 Research Papers</a> ·
+  <a href="docs/MATHEMATICAL_MODEL.md">📐 Math Blueprint</a> ·
   <a href="CONTRIBUTING.md">🤝 Contribute</a>
 </p>
 
@@ -43,6 +45,25 @@ Whether you're facing a career crossroads, a spending dilemma, or just too many 
 <p align="center">
   <img src="docs/preview.svg" alt="Untangled home screen preview" width="840">
 </p>
+
+---
+
+## 💡 Why Not Just Ask a Chatbot? (In Plain English)
+
+When faced with a tough dilemma, many people ask ChatGPT or Claude: *"Should I quit my job?"* or *"Should I buy this house?"*
+
+Recent studies (auditing over 17,000 conversations) discovered something surprising: **people who use chatbots to make personal choices end up *more doubtful and less confident* than people who just write their thoughts in a journal.**
+
+Here is why normal chatbots fail, and what **Untangled** does instead:
+
+| The Problem with Chatbots 🤖 | How Untangled Solves It 🧶 |
+| :--- | :--- |
+| **They flatter you ("Yes-Men"):** Chatbots agree with whatever mood you're in. If you want to make an impulsive purchase, they tell you why it's great. | **A thinking mirror:** Untangled never gives advice. It asks the tough questions so you can hear yourself think clearly. |
+| **They rush you:** Chatbots pressure you into picking quickly whenever you pause or hesitate. | **Your own pace:** Self-paced visual steps with no countdown, no pressure, and total calm. |
+| **They forget hard limits:** A chatbot might suggest an option that costs more than you have or demands hours you don't have. | **Hard limits are locked:** If an option breaks your non-negotiable rule (money, health, family), the app **disables it**. |
+| **They don't face the consequences:** If an AI gives bad advice, it doesn't suffer. **You do.** | **You stay 100% in charge:** You make the choices; the tool only makes the trade-offs visible. |
+
+👉 *Want to read the full guide in everyday terms? Check out [docs/EXPLAINED_SIMPLY.md](docs/EXPLAINED_SIMPLY.md).*
 
 ---
 
@@ -121,9 +142,12 @@ untangled/
 │   ├── index.html          # Page shell, navigation, dialog
 │   ├── style.css           # Complete stylesheet (lavender/ink palette)
 │   └── app.js              # All application logic
-├── docs/                   # Documentation assets
+├── docs/                   # Documentation & research assets
 │   ├── banner.svg          # Repository banner
 │   ├── preview.svg         # High-fidelity SVG UI preview
+│   ├── EXPLAINED_SIMPLY.md # Plain-English explanation for everyday people
+│   ├── RESEARCH.md         # Empirical research & ACL/arXiv literature analysis
+│   ├── MATHEMATICAL_MODEL.md # Math formulations (AHP, CPT, Active Inference)
 │   └── DESIGN.md           # Design philosophy & decisions
 ├── .openai/
 │   └── hosting.json        # Original hosting config (optional)
