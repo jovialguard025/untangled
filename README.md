@@ -19,7 +19,8 @@
 <p align="center">
   <a href="https://jovialguard025.github.io/untangled/">🌐 Live Demo</a> ·
   <a href="docs/EXPLAINED_SIMPLY.md">💡 Explained Simply</a> ·
-  <a href="docs/RESEARCH.md">🔬 Research Papers</a> ·
+  <a href="docs/reading_plan/MASTER_INDEX_100_PAPERS.md">📚 100 Research Papers</a> ·
+  <a href="docs/reading_plan/CHECKPOINT_50_REVIEW.md">🏁 Checkpoint 50</a> ·
   <a href="docs/MATHEMATICAL_MODEL.md">📐 Math Blueprint</a> ·
   <a href="CONTRIBUTING.md">🤝 Contribute</a>
 </p>
@@ -146,6 +147,11 @@ untangled/
 │   ├── banner.svg          # Repository banner
 │   ├── preview.svg         # High-fidelity SVG UI preview
 │   ├── EXPLAINED_SIMPLY.md # Plain-English explanation for everyday people
+│   ├── reading_plan/       # 100-paper literature syllabus in 10 everyday packets
+│   │   ├── MASTER_INDEX_100_PAPERS.md # Master syllabus & tracking matrix
+│   │   ├── CHECKPOINT_50_REVIEW.md    # Midpoint synthesis of Papers 1–50
+│   │   ├── packet_01_mcda_foundations.md
+│   │   └── ... (Packets 02 through 10)
 │   ├── RESEARCH.md         # Empirical research & ACL/arXiv literature analysis
 │   ├── MATHEMATICAL_MODEL.md # Math formulations (AHP, CPT, Active Inference)
 │   └── DESIGN.md           # Design philosophy & decisions
