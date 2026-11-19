@@ -121,7 +121,7 @@ untangled/
 │   └── app.js              # All application logic
 ├── docs/                   # Documentation assets
 │   ├── banner.svg          # Repository banner
-│   ├── screenshot-home.png # Homepage screenshot
+│   ├── preview.svg         # High-fidelity SVG UI preview
 │   └── DESIGN.md           # Design philosophy & decisions
 ├── .openai/
 │   └── hosting.json        # Original hosting config (optional)
