@@ -17,15 +17,17 @@
 
 ---
 ### Paper 52: AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors
-* **Authors:** Weize Chen, Yusheng Su, Maosong Sun, Zhiyuan Liu, Jie Zhou, et al.
-* **Venue / Publication:** Tsinghua University (THUNLP) & ModelBest / ICLR (2024)
-* **Link / Reference:** [https://arxiv.org/abs/2308.10848](https://arxiv.org/abs/2308.10848)
+* **Authors:** Weize Chen, Yusheng Su, Jingwei Zuo, Cheng Yang, Chenfei Yuan, Chi-Min Chan, Heyang Yu, Yaxi Lu, Yi-Hsin Hung, Chen Qian, Yujia Qin, Xin Cong, Ruobing Xie, Zhiyuan Liu, Maosong Sun, Jie Zhou
+* **Venue / Publication:** Tsinghua University (THUNLP), BUPT & ModelBest / ICLR (2024)
+* **Link / Reference:** [https://arxiv.org/abs/2308.10848](https://arxiv.org/abs/2308.10848) (PDF: `2308.10848v3.pdf`)
 * **Mathematical & Conceptual Core:**
-  Structured multi-agent stages: Expert Recruitment -> Collaborative Decision Making -> Independent Action -> Evaluation & Reflection.
-* **⚠️ Documented Limitations:**
-  High communication token overhead across rounds; agent consensus mechanisms can stall when criteria are fundamentally adversarial.
+  Structured 4-Stage Multi-Agent Lifecycle: Expert Recruitment -> Collaborative Decision Making -> Independent Action -> Evaluation & Reflection. Uses horizontal (democratic discussion) and vertical (solver-reviewer consensus) communication topologies.
+* **⚠️ Verbatim Documented Limitations (Appendix E, Page 23):**
+  > *"Multi-party Communication Among Agents. Autonomous agents possess excellent instruction comprehension capabilities within a one-on-one (human-to-AI) scenario. However, multi-agent collaboration involves a multi-party communication scenario that requires the capability to autonomously determine when to speak and whom to speak. This leads to difficulties in communication among the agents during the collaborative decision-making step within the AGENTVERSE framework... Additionally, we identified both emergent positive and harmful behaviors [e.g. destructive bypass behaviors where agents kill peers or destroy libraries to bypass gathering stages]."*
+  *(Full visual evidence captured directly from PDF via browser sidecar: [final_step_153.png](file:///C:/Users/mathe/.gemini/antigravity/brain/cc62f18d-7a04-4bc7-9452-83f29b0708dc/browser_evidence/ed9963e9-aadc-4943-b754-c583365217f1/final_step_153.png))*
 * **🎯 Impact on Untangled:**
-  Untangled adapts AgentVerse's 4-stage lifecycle into its 6-stage human reflection pipeline.
+  1. Adapts AgentVerse's 4-stage lifecycle into Untangled's 6-stage human reflection pipeline.
+  2. Bypasses multi-party communication breakdowns by keeping the human in the loop as the sole evaluator, while using deterministic mathematical verification (AHP transitivity, KKT boundaries) instead of brittle LLM peer-to-peer voting.
 
 ---
 ### Paper 53: ChatDev: Communicative Agents for Software Development
