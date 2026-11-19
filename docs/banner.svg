@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" fill="none">
+  <rect width="720" height="200" rx="12" fill="#f6f5f9"/>
+  <ellipse cx="360" cy="100" rx="280" ry="70" fill="#e8e3f3" opacity=".3"/>
+
+  <!-- Tangled thread -->
+  <path d="M80 100C120 40 200 30 230 80S140 170 160 100 280 50 260 130 170 160 190 80 290 40 285 130 180 160 210 70 320 90 270 150 230 50 280 70 260 150 240 120 300 80 290 130 340 150 380 120" stroke="#8c79a9" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M82 105C115 42 195 33 225 82S145 165 168 105 275 55 258 128 175 155 195 85 285 45 282 128 185 155 215 75 315 92 268 148 235 55 275 72 258 148 242 118 298 85 295 128 338 148 380 120" stroke="#b9aaca" stroke-width=".8"/>
+
+  <!-- Thread end -->
+  <circle cx="380" cy="120" r="4" fill="#7161aa"/>
+  <path d="M380 120C395 108 403 98 405 88" stroke="#7161aa" stroke-width="1.4" stroke-linecap="round"/>
+
+  <!-- Title -->
+  <text x="420" y="90" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="600" fill="#242428" letter-spacing="-2">untangled</text>
+
+  <!-- Subtitle -->
+  <text x="420" y="118" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#74727b">A space to think things through.</text>
+
+  <!-- Author tag -->
+  <text x="420" y="145" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="#7161aa" letter-spacing="1.5" text-transform="uppercase">BY MATHEW ALBIN</text>
+</svg>
