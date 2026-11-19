@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" fill="none">
+  <!-- Window frame / Canvas -->
+  <rect width="900" height="560" rx="12" fill="#f6f5f9" stroke="#dedce5" stroke-width="1.5"/>
+
+  <!-- Top bar (browser imitation) -->
+  <rect width="900" height="40" rx="12" fill="#eeeaf3"/>
+  <rect y="28" width="900" height="12" fill="#eeeaf3"/>
+  <line x1="0" y1="40" x2="900" y2="40" stroke="#dedce5"/>
+  <circle cx="24" cy="20" r="5" fill="#f26c60"/>
+  <circle cx="40" cy="20" r="5" fill="#f5bf4f"/>
+  <circle cx="56" cy="20" r="5" fill="#61c454"/>
+  <rect x="180" y="9" width="540" height="22" rx="6" fill="#ffffff" stroke="#dedce5"/>
+  <text x="360" y="24" font-family="'DM Sans', system-ui, sans-serif" font-size="11" fill="#74727b">https://jovialguard025.github.io/untangled/</text>
+
+  <!-- Header -->
+  <g transform="translate(50, 65)">
+    <text x="0" y="28" font-family="Georgia, serif" font-size="28" fill="#242428" font-weight="400">c<tspan font-size="16" dy="-4" fill="#7161aa">•</tspan></text>
+    <text x="28" y="28" font-family="'Manrope', system-ui, sans-serif" font-size="22" font-weight="800" fill="#242428" letter-spacing="-1">clearing</text>
+
+    <!-- Nav buttons -->
+    <text x="360" y="26" font-family="'DM Sans', system-ui, sans-serif" font-size="13" fill="#242428">The approach</text>
+    <text x="470" y="26" font-family="'DM Sans', system-ui, sans-serif" font-size="13" fill="#242428">My thinking</text>
+    <circle cx="550" cy="22" r="10" fill="#e9e6ef"/>
+    <text x="547" y="26" font-family="'DM Sans', system-ui, sans-serif" font-size="11" fill="#242428">0</text>
+    <text x="630" y="26" font-family="'DM Sans', system-ui, sans-serif" font-size="12" fill="#74727b">A little space. A clearer mind.</text>
+    <line x1="0" y1="45" x2="800" y2="45" stroke="#dedce5"/>
+  </g>
+
+  <!-- Hero Left -->
+  <g transform="translate(50, 140)">
+    <!-- Eyebrow -->
+    <line x1="0" y1="4" x2="16" y2="4" stroke="#7161aa" stroke-width="1.2"/>
+    <text x="24" y="8" font-family="'DM Sans', system-ui, sans-serif" font-size="10" font-weight="600" fill="#7161aa" letter-spacing="1.8">A SPACE TO THINK THINGS THROUGH</text>
+
+    <!-- Headline -->
+    <text x="0" y="52" font-family="'Manrope', system-ui, sans-serif" font-size="44" font-weight="500" fill="#242428" letter-spacing="-2.5">A tangled mind.</text>
+    <text x="0" y="100" font-family="'Manrope', system-ui, sans-serif" font-size="44" font-weight="500" fill="#242428" letter-spacing="-2.5">A <tspan font-family="Georgia, serif" font-style="italic" fill="#7161aa" font-weight="400">clearer</tspan> way.</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="136" font-family="'DM Sans', system-ui, sans-serif" font-size="14" fill="#74727b" line-height="1.5">Big decisions. Everyday dilemmas.</text>
+    <text x="0" y="156" font-family="'DM Sans', system-ui, sans-serif" font-size="14" fill="#74727b">Find your way through, one good question at a time.</text>
+
+    <!-- Start Button & note -->
+    <rect x="0" y="185" width="180" height="46" rx="7" fill="#242428"/>
+    <text x="32" y="213" font-family="'DM Sans', system-ui, sans-serif" font-size="13" font-weight="500" fill="#ffffff">Untangle a decision</text>
+    <text x="198" y="204" font-family="'DM Sans', system-ui, sans-serif" font-size="11" fill="#74727b">Your pace. Your answers.</text>
+    <text x="198" y="220" font-family="'DM Sans', system-ui, sans-serif" font-size="11" fill="#74727b">About 5–10 minutes.</text>
+  </g>
+
+  <!-- Hero Right (Tangled Thread Artwork) -->
+  <g transform="translate(510, 110)">
+    <text x="20" y="20" font-family="'DM Sans', system-ui, sans-serif" font-size="10" fill="#74727b" letter-spacing="0.5">IT STARTS A LITTLE TANGLED.</text>
+    <g transform="translate(-10, 10) scale(0.72)">
+      <ellipse cx="250" cy="210" rx="145" ry="115" fill="#e9e3f2" opacity=".4"/>
+      <path d="M28 164C88 60 301 29 322 130S78 341 100 176 370 78 329 236 114 307 144 130 362 53 355 219 108 293 176 112 398 186 293 268 181 63 288 99 251 298 210 215 333 128 323 233 393 277 433 208" stroke="#8c79a9" stroke-width="1.8"/>
+      <path d="M30 174C81 61 293 30 313 128S82 333 109 179 358 87 321 231 126 303 153 136 350 62 346 217 120 283 182 120 383 186 289 260 188 75 282 106 252 281 216 212 328 141 331 229 392 267 433 208" stroke="#b9aaca" stroke-width="0.9"/>
+      <circle cx="433" cy="208" r="6" fill="#7161aa"/>
+      <path d="M433 208C450 186 458 170 459 155" stroke="#7161aa" stroke-width="1.6"/>
+    </g>
+    <!-- Chip -->
+    <rect x="110" y="160" width="140" height="36" rx="18" fill="#f6f5f9" stroke="#bcb1d4" filter="drop-shadow(0 4px 12px rgba(78,59,109,0.08))"/>
+    <text x="130" y="182" font-family="'DM Sans', system-ui, sans-serif" font-size="12" fill="#242428">Let’s find the thread.</text>
+    <text x="160" y="260" font-family="'DM Sans', system-ui, sans-serif" font-size="10" fill="#74727b" letter-spacing="0.5">IT DOESN’T HAVE TO STAY THAT WAY.</text>
+  </g>
+
+  <!-- Bottom Starter Cards -->
+  <g transform="translate(50, 410)">
+    <text x="0" y="0" font-family="'DM Sans', system-ui, sans-serif" font-size="13" font-weight="600" fill="#242428">Not sure where to start? <tspan font-weight="400" fill="#74727b">Borrow a question. Make it yours.</tspan></text>
+
+    <!-- Card 1 -->
+    <rect x="0" y="15" width="255" height="92" rx="9" fill="#ffffff" stroke="#dedce5" opacity="0.9"/>
+    <text x="16" y="38" font-family="'DM Sans', system-ui, sans-serif" font-size="10" fill="#74727b"><tspan fill="#7161aa">⌘</tspan> WORK &amp; DIRECTION</text>
+    <text x="16" y="60" font-family="'DM Sans', system-ui, sans-serif" font-size="13" font-weight="500" fill="#242428">Should I stay, or take</text>
+    <text x="16" y="78" font-family="'DM Sans', system-ui, sans-serif" font-size="13" font-weight="500" fill="#242428">the new opportunity?</text>
+
+    <!-- Card 2 -->
+    <rect x="272" y="15" width="255" height="92" rx="9" fill="#ffffff" stroke="#dedce5" opacity="0.9"/>
+    <text x="288" y="38" font-family="'DM Sans', system-ui, sans-serif" font-size="10" fill="#74727b"><tspan fill="#7161aa">◷</tspan> TIME &amp; ENERGY</text>
+    <text x="288" y="60" font-family="'DM Sans', system-ui, sans-serif" font-size="13" font-weight="500" fill="#242428">Too much to do.</text>
+    <text x="288" y="78" font-family="'DM Sans', system-ui, sans-serif" font-size="13" font-weight="500" fill="#242428">What actually matters?</text>
+
+    <!-- Card 3 -->
+    <rect x="545" y="15" width="255" height="92" rx="9" fill="#ffffff" stroke="#dedce5" opacity="0.9"/>
+    <text x="561" y="38" font-family="'DM Sans', system-ui, sans-serif" font-size="10" fill="#74727b"><tspan fill="#7161aa">◇</tspan> MONEY &amp; PRIORITIES</text>
+    <text x="561" y="60" font-family="'DM Sans', system-ui, sans-serif" font-size="13" font-weight="500" fill="#242428">Do I need this,</text>
+    <text x="561" y="78" font-family="'DM Sans', system-ui, sans-serif" font-size="13" font-weight="500" fill="#242428">or do I just want it?</text>
+  </g>
+
+  <!-- Footer note -->
+  <g transform="translate(50, 535)">
+    <text x="0" y="0" font-family="'DM Sans', system-ui, sans-serif" font-size="11" fill="#74727b">🔒 Your reflections stay in this browser. No account for your thoughts.</text>
+  </g>
+</svg>

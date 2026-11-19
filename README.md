@@ -41,7 +41,7 @@ Whether you're facing a career crossroads, a spending dilemma, or just too many 
 > *"Which commitment can I reduce this week?" is a decision you can work with.*
 
 <p align="center">
-  <img src="docs/screenshot-home.png" alt="Untangled home screen" width="800">
+  <img src="docs/preview.svg" alt="Untangled home screen preview" width="840">
 </p>
 
 ---
